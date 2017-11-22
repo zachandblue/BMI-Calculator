@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  background-color: FireBrick ;
+  background-color:  CornFlowerBlue;
+  width: 90%;
+  border-radius: 3px;
+  margin: 15px auto;
+  padding: 10px 0;
+  color: white;
+
+}
+
+.header {
+  width: 95%;
+  margin: 0 auto;
+}
+
+h5 {
+  position: relative;
+  top: 1px;
+
+}
+
+input {
+
+}
+
+
+.content-box {
+  width: 99%;
+  height: 99%;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 0px 0;
+  background-color: #263339;
+}
+
+.box {
+  height: 40px;
+  position: relative;
+  top: 20px;
+  margin: 20px 0;
+}
+
+.box-item {
+  display: inline-block;
+  height: 40px;
+  vertical-align: top;
+
+
+}
+
+.left-item {
+  background-color: #263339;
+  width: 160px;
+  height: 40px;
+  border: 1px grey solid;
+}
+
+.right-item {
+  width: 160px;
+  height: 40px;
+  color: black;
+
+
+
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.btn{
+  background: orange;
+  border: none;
+}
+
+.btn:hover {
+  background: darkorange;
+}
